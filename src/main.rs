@@ -15,6 +15,7 @@ fn get_solution(num: i32) -> i64 {
     match num {
         1 => problems::problem1::solve(),
         2 => problems::problem2::solve(),
+        3 => problems::problem3::solve(),
         _ => panic!("unknow problem"),
     }
 }
